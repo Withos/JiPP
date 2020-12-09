@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lab4/Matrix.hpp
+iostream
+-
+fstream
+-
+stdlib.h
+-
+string
+-
+vector
+-
+cmath
+-
+
+C:/Users/User/projects/cmake/lab4/src/Matrix.cpp
+lab4/Matrix.hpp
+-
+
+C:/Users/User/projects/cmake/lab4/src/main.cpp
+lab4/Matrix.hpp
+-
+
