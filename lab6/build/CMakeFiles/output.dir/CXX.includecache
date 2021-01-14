@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lab6/HRMS.hpp
+iostream
+-
+stdlib.h
+-
+string.h
+-
+vector
+-
+map
+-
+employee.hpp
+../include/lab6/employee.hpp
+
+../include/lab6/employee.hpp
+stdio.h
+-
+iostream
+-
+stdlib.h
+-
+string
+-
+
+C:/Users/User/projects/cmake/lab6/src/HRMS.cpp
+lab6/HRMS.hpp
+C:/Users/User/projects/cmake/lab6/src/lab6/HRMS.hpp
+algorithm
+-
+
+C:/Users/User/projects/cmake/lab6/src/employee.cpp
+lab6/employee.hpp
+-
+
+C:/Users/User/projects/cmake/lab6/src/main.cpp
+lab6/HRMS.hpp
+C:/Users/User/projects/cmake/lab6/src/lab6/HRMS.hpp
+
