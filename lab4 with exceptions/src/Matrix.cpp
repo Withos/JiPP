@@ -101,7 +101,7 @@ void Matrix::set(int n, int m, double val)
 {
     try
     {
-        if(n<1 || n>m_no_rows || m<1 || m<m_no_columns)
+        if(n<1 || n>m_no_rows || m<1 || m>m_no_columns)
         throw 1;
         my_matrix[n][m]=val;
     }
